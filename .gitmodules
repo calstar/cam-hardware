@@ -1,0 +1,3 @@
+[submodule "radio/hardware-sch-blocks"]
+	path = radio/hardware-sch-blocks
+	url = git@github.com:calstar/hardware-sch-blocks.git
