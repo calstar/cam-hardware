@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:core-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2900 2700 0    50   Input ~ 0
-SCL
-Text GLabel 2900 2550 0    50   Input ~ 0
-SDA
-Text GLabel 2900 2400 0    50   Input ~ 0
-INT_IMU
-Text GLabel 2900 2250 0    50   Input ~ 0
-nRESET
-Text GLabel 8550 4000 2    50   Input ~ 0
-CSB
-Text GLabel 7350 3400 0    50   Input ~ 0
-SCL
 Wire Wire Line
 	7350 3400 7500 3400
 Wire Wire Line
@@ -74,20 +61,8 @@ NoConn ~ 7500 4600
 NoConn ~ 7500 4750
 NoConn ~ 7500 4900
 NoConn ~ 7500 5050
-Text GLabel 2900 5400 0    50   Input ~ 0
-CSB
-Text GLabel 2900 5250 0    50   Input ~ 0
-INT_ALT
-Text GLabel 2900 5550 0    50   Input ~ 0
-SDA
-Text GLabel 3700 5550 2    50   Input ~ 0
-SCL
-Text GLabel 8550 4600 2    50   Input ~ 0
-SDA
 Wire Wire Line
 	8550 4600 8400 4600
-Text GLabel 8550 3850 2    50   Input ~ 0
-INT_ALT
 Wire Wire Line
 	8550 3850 8400 3850
 $Sheet
@@ -147,10 +122,6 @@ F50 "PC15" I R 8400 5500 50
 F51 "PH0" I L 7500 4900 50 
 F52 "PH1" I L 7500 5050 50 
 $EndSheet
-Text GLabel 8550 3250 2    50   Input ~ 0
-nRESET
-Text GLabel 8550 3400 2    50   Input ~ 0
-INT_IMU
 Wire Wire Line
 	8550 3250 8400 3250
 Wire Wire Line
@@ -191,4 +162,153 @@ Wire Wire Line
 	3100 5550 2900 5550
 Wire Wire Line
 	3700 5550 3600 5550
+$Comp
+L star-common-lib:FTMH-120-03-F-DV-P J?
+U 1 1 5E646F14
+P 5400 2850
+F 0 "J?" H 5450 3967 50  0000 C CNN
+F 1 "FTMH-120-03-F-DV-P" H 5450 3876 50  0000 C CNN
+F 2 "" H 5400 2850 50  0001 C CNN
+F 3 "~" H 5400 2850 50  0001 C CNN
+	1    5400 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3400 2    50   ~ 0
+I2C_SCL
+Text Label 2900 2250 2    50   ~ 0
+nRESET
+Text Label 2900 2400 2    50   ~ 0
+INT_IMU
+Text Label 2900 2550 2    50   ~ 0
+I2C_SDA
+Text Label 2900 2700 2    50   ~ 0
+I2C_SCL
+Text Label 2900 5250 2    50   ~ 0
+INT_ALT
+Text Label 2900 5400 2    50   ~ 0
+CSB
+Text Label 2900 5550 2    50   ~ 0
+I2C_SDA
+Text Label 3700 5550 0    50   ~ 0
+I2C_SCL
+Text Label 8550 3250 0    50   ~ 0
+nRESET
+Text Label 8550 3400 0    50   ~ 0
+INT_IMU
+Text Label 8550 3850 0    50   ~ 0
+INT_ALT
+Text Label 8550 4000 0    50   ~ 0
+CSB
+Text Label 8550 4600 0    50   ~ 0
+I2C_SDA
+Text Label 5700 3750 0    50   ~ 0
+IO_38
+Text Label 5200 2050 2    50   ~ 0
+SPI_MISO
+Text Label 5200 2150 2    50   ~ 0
+SPI_nSS1
+Text Label 5200 2250 2    50   ~ 0
+SPI_nSS3
+Text Label 5200 2350 2    50   ~ 0
+SPI_nSS5
+Text Label 5200 2450 2    50   ~ 0
+SPI_nSS7
+Text Label 5200 2550 2    50   ~ 0
+SPI_nSS9
+Text Label 5200 2650 2    50   ~ 0
+SPI_nSS11
+Text Label 5200 2750 2    50   ~ 0
+SPI_nSS13
+Text Label 5200 2850 2    50   ~ 0
+SPI_nSS15
+Text Label 5700 1950 0    50   ~ 0
+SPI_SCK
+Text Label 5700 2050 0    50   ~ 0
+SPI_MOSI
+Text Label 5700 2150 0    50   ~ 0
+SPI_nSS2
+Text Label 5700 2250 0    50   ~ 0
+SPI_nSS4
+Text Label 5700 2350 0    50   ~ 0
+SPI_nSS6
+Text Label 5700 2450 0    50   ~ 0
+SPI_nSS8
+Text Label 5700 2550 0    50   ~ 0
+SPI_nSS10
+Text Label 5700 2650 0    50   ~ 0
+SPI_nSS12
+Text Label 5700 2750 0    50   ~ 0
+SPI_nSS14
+Text Label 5200 2950 2    50   ~ 0
+V3.3
+Text Label 5200 3050 2    50   ~ 0
+V5
+Text Label 5700 2850 0    50   ~ 0
+SPI_nSS16
+Text Label 5700 3050 0    50   ~ 0
+V7.4
+$Comp
+L power:GND #PWR?
+U 1 1 5E652AC2
+P 6250 2950
+F 0 "#PWR?" H 6250 2700 50  0001 C CNN
+F 1 "GND" H 6255 2777 50  0000 C CNN
+F 2 "" H 6250 2950 50  0001 C CNN
+F 3 "" H 6250 2950 50  0001 C CNN
+	1    6250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2950 6250 2950
+Text Label 5200 3850 2    50   ~ 0
+IO_39
+Text Label 5200 3250 2    50   ~ 0
+I2C_SCL
+Text Label 5700 3250 0    50   ~ 0
+I2C_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5E65479A
+P 4700 1950
+F 0 "#PWR?" H 4700 1700 50  0001 C CNN
+F 1 "GND" H 4705 1777 50  0000 C CNN
+F 2 "" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1950 5200 1950
+Text Label 5200 3150 2    50   ~ 0
+V1.2
+$Comp
+L power:GND #PWR?
+U 1 1 5E656A75
+P 6250 3850
+F 0 "#PWR?" H 6250 3600 50  0001 C CNN
+F 1 "GND" H 6255 3677 50  0000 C CNN
+F 2 "" H 6250 3850 50  0001 C CNN
+F 3 "" H 6250 3850 50  0001 C CNN
+	1    6250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3850 5700 3850
+Wire Wire Line
+	4700 3350 5200 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5E657C0D
+P 4700 3350
+F 0 "#PWR?" H 4700 3100 50  0001 C CNN
+F 1 "GND" H 4705 3177 50  0000 C CNN
+F 2 "" H 4700 3350 50  0001 C CNN
+F 3 "" H 4700 3350 50  0001 C CNN
+	1    4700 3350
+	1    0    0    -1  
+$EndComp
+Text Label 5700 3350 0    50   ~ 0
+V3.3
+Text Label 5700 3150 0    50   ~ 0
+V5
 $EndSCHEMATC

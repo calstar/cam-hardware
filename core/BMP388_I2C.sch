@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:core-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,12 +16,14 @@ $EndDescr
 Text Notes 7300 6900 0    118  ~ 0
 BMP388 Hierarchical Block (I2C)
 $Comp
-L calstar:BMP388 U?
+L star-common-lib:BMP388 U?
 U 1 1 5E6D1ACA
 P 5850 4050
-F 0 "U?" H 5850 4525 50  0000 C CNN
+AR Path="/5E6D1ACA" Ref="U?"  Part="1" 
+AR Path="/5E6CF5BB/5E6D1ACA" Ref="U"  Part="1" 
+F 0 "U" H 5850 4525 50  0000 C CNN
 F 1 "BMP388" H 5850 4434 50  0000 C CNN
-F 2 "calstar:BMP388" H 5850 4600 50  0001 C CNN
+F 2 "star-common-lib:BMP388" H 5850 4600 50  0001 C CNN
 F 3 "" H 5850 4450 50  0001 C CNN
 	1    5850 4050
 	1    0    0    -1  

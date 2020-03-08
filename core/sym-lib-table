@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name calstar)(type Legacy)(uri "C:/Users/jgolf/Google Drive/School/UC Berkeley/Calstar/CAM/lib/calstar.lib")(options "")(descr ""))
   (lib (name STM32F401RET6-cache)(type Legacy)(uri "C:/Users/jgolf/Google Drive/School/UC Berkeley/Calstar/Avionics_Sync/calstar-hardware-sch-blocks-6134b55/STM32F401RET6/STM32F401RET6-cache.lib")(options "")(descr ""))
   (lib (name Sensor_Motion)(type Legacy)(uri ${KIPRJMOD}/Sensor_Motion.lib)(options "")(descr ""))
+  (lib (name core-rescue)(type Legacy)(uri ${KIPRJMOD}/core-rescue.lib)(options "")(descr ""))
 )
