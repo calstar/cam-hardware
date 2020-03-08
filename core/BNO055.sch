@@ -320,4 +320,6 @@ SDA
 Text HLabel 5150 4300 0    50   Output ~ 0
 SCL
 Connection ~ 5200 4200
+Text Notes 7300 6900 0    118  ~ 0
+BNO055 Hierarchical Block (I2C)
 $EndSCHEMATC
