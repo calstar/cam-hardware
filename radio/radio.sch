@@ -65,13 +65,11 @@ Wire Wire Line
 Wire Wire Line
 	2100 2150 2650 2150
 Wire Wire Line
-	6800 2950 7250 2950
-Wire Wire Line
-	6800 3500 7250 3500
+	6800 2850 7250 2850
 Wire Wire Line
 	6800 3600 7250 3600
 Wire Wire Line
-	5850 5400 6300 5400
+	5850 5300 6300 5300
 Wire Wire Line
 	2100 2050 2650 2050
 Wire Wire Line
@@ -79,47 +77,45 @@ Wire Wire Line
 Wire Wire Line
 	2100 1850 2650 1850
 Wire Wire Line
-	5900 1050 6300 1050
-Wire Wire Line
 	5900 1150 6300 1150
 Wire Wire Line
 	5900 2950 6300 2950
 Wire Wire Line
 	5900 3700 6300 3700
 Text Label 5900 3500 2    50   ~ 0
-SPI_MISO
+SPI_SCK
 Text Label 5900 3600 2    50   ~ 0
-SPI_nSS1
+SPI_MOSI
 Text Label 5900 3700 2    50   ~ 0
-SPI_nSS3
-Text Label 5900 3800 2    50   ~ 0
-SPI_nSS5
-Text Label 5900 3900 2    50   ~ 0
-SPI_nSS7
-Text Label 5900 4000 2    50   ~ 0
-SPI_nSS9
-Text Label 5900 4100 2    50   ~ 0
-SPI_nSS11
-Text Label 5900 4200 2    50   ~ 0
-SPI_nSS13
-Text Label 5900 4300 2    50   ~ 0
-SPI_nSS15
-Text Label 7250 3700 0    50   ~ 0
 SPI_nSS2
-Text Label 7250 3800 0    50   ~ 0
+Text Label 5900 3800 2    50   ~ 0
 SPI_nSS4
-Text Label 7250 3900 0    50   ~ 0
+Text Label 5900 3900 2    50   ~ 0
 SPI_nSS6
-Text Label 7250 4000 0    50   ~ 0
+Text Label 5900 4000 2    50   ~ 0
 SPI_nSS8
-Text Label 7250 4100 0    50   ~ 0
+Text Label 5900 4100 2    50   ~ 0
 SPI_nSS10
-Text Label 7250 4200 0    50   ~ 0
+Text Label 5900 4200 2    50   ~ 0
 SPI_nSS12
-Text Label 7250 4300 0    50   ~ 0
+Text Label 5900 4300 2    50   ~ 0
 SPI_nSS14
+Text Label 7250 3700 0    50   ~ 0
+SPI_nSS1
+Text Label 7250 3800 0    50   ~ 0
+SPI_nSS3
+Text Label 7250 3900 0    50   ~ 0
+SPI_nSS5
+Text Label 7250 4000 0    50   ~ 0
+SPI_nSS7
+Text Label 7250 4100 0    50   ~ 0
+SPI_nSS9
+Text Label 7250 4200 0    50   ~ 0
+SPI_nSS11
+Text Label 7250 4300 0    50   ~ 0
+SPI_nSS13
 Text Label 7250 4400 0    50   ~ 0
-SPI_nSS16
+SPI_nSS15
 Wire Wire Line
 	5900 3800 6300 3800
 Wire Wire Line
@@ -148,58 +144,54 @@ Wire Wire Line
 	6800 4300 7250 4300
 Wire Wire Line
 	6800 4400 7250 4400
-Text Label 7250 3500 0    50   ~ 0
-SPI_SCK
 Text Label 7250 3600 0    50   ~ 0
-SPI_MOSI
+SPI_MISO
 Text Label 7250 5400 0    50   ~ 0
 IO_39
 Text Label 7250 1050 0    50   ~ 0
-SPI_MISO
-Text Label 7250 1150 0    50   ~ 0
-SPI_nSS1
-Text Label 7250 1250 0    50   ~ 0
-SPI_nSS3
-Text Label 7250 1350 0    50   ~ 0
-SPI_nSS5
-Text Label 7250 1450 0    50   ~ 0
-SPI_nSS7
-Text Label 7250 1550 0    50   ~ 0
-SPI_nSS9
-Text Label 7250 1650 0    50   ~ 0
-SPI_nSS11
-Text Label 7250 1750 0    50   ~ 0
-SPI_nSS13
-Text Label 7250 1850 0    50   ~ 0
-SPI_nSS15
-Text Label 7250 2950 0    50   ~ 0
-IO_40
-Text Label 5900 1050 2    50   ~ 0
 SPI_SCK
-Text Label 5900 1150 2    50   ~ 0
+Text Label 7250 1150 0    50   ~ 0
 SPI_MOSI
+Text Label 7250 1250 0    50   ~ 0
+SPI_nSS2
+Text Label 7250 1350 0    50   ~ 0
+SPI_nSS4
+Text Label 7250 1450 0    50   ~ 0
+SPI_nSS6
+Text Label 7250 1550 0    50   ~ 0
+SPI_nSS8
+Text Label 7250 1650 0    50   ~ 0
+SPI_nSS10
+Text Label 7250 1750 0    50   ~ 0
+SPI_nSS12
+Text Label 7250 1850 0    50   ~ 0
+SPI_nSS14
+Text Label 7250 2850 0    50   ~ 0
+IO_38
+Text Label 5900 1150 2    50   ~ 0
+SPI_MISO
 Text Label 5900 2950 2    50   ~ 0
 IO_39
 Text Label 5900 1250 2    50   ~ 0
-SPI_nSS2
+SPI_nSS1
 Text Label 5900 1350 2    50   ~ 0
-SPI_nSS4
+SPI_nSS3
 Text Label 5900 1450 2    50   ~ 0
-SPI_nSS6
+SPI_nSS5
 Text Label 5900 1550 2    50   ~ 0
-SPI_nSS8
+SPI_nSS7
 Text Label 5900 1650 2    50   ~ 0
-SPI_nSS10
+SPI_nSS9
 Text Label 5900 1750 2    50   ~ 0
-SPI_nSS12
+SPI_nSS11
 Text Label 5900 1850 2    50   ~ 0
-SPI_nSS14
+SPI_nSS13
 Text Label 5900 1950 2    50   ~ 0
-SPI_nSS16
+SPI_nSS15
 Text Label 2100 1850 2    50   ~ 0
 IO_39
 Text Label 2100 2050 2    50   ~ 0
-IO_40
+IO_38
 Text Label 2100 2150 2    50   ~ 0
 SPI_nSS1
 Text Label 2100 2250 2    50   ~ 0
@@ -238,6 +230,156 @@ Wire Wire Line
 	7250 1750 6800 1750
 Wire Wire Line
 	6800 1850 7250 1850
-Text Label 5850 5400 2    50   ~ 0
-IO_40
+Text Label 5850 5300 2    50   ~ 0
+IO_38
+Text Label 5900 4400 2    50   ~ 0
+SPI_nSS16
+Wire Wire Line
+	5900 4400 6300 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5E6606DC
+P 7850 3500
+F 0 "#PWR?" H 7850 3250 50  0001 C CNN
+F 1 "GND" H 7855 3327 50  0000 C CNN
+F 2 "" H 7850 3500 50  0001 C CNN
+F 3 "" H 7850 3500 50  0001 C CNN
+	1    7850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3500 7850 3500
+Text Label 7250 1950 0    50   ~ 0
+SPI_nSS16
+Wire Wire Line
+	7250 1950 6800 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5E666581
+P 5300 1050
+F 0 "#PWR?" H 5300 800 50  0001 C CNN
+F 1 "GND" H 5305 877 50  0000 C CNN
+F 2 "" H 5300 1050 50  0001 C CNN
+F 3 "" H 5300 1050 50  0001 C CNN
+	1    5300 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1050 6300 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5E667F20
+P 5850 5400
+F 0 "#PWR?" H 5850 5150 50  0001 C CNN
+F 1 "GND" H 5855 5227 50  0000 C CNN
+F 2 "" H 5850 5400 50  0001 C CNN
+F 3 "" H 5850 5400 50  0001 C CNN
+	1    5850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5400 6300 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E669858
+P 7250 2950
+F 0 "#PWR?" H 7250 2700 50  0001 C CNN
+F 1 "GND" H 7255 2777 50  0000 C CNN
+F 2 "" H 7250 2950 50  0001 C CNN
+F 3 "" H 7250 2950 50  0001 C CNN
+	1    7250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2950 6800 2950
+Text Label 5900 2050 2    50   ~ 0
+V3.3
+Wire Wire Line
+	5900 2050 6300 2050
+Text Label 5900 2150 2    50   ~ 0
+V5
+Text Label 5900 2250 2    50   ~ 0
+V1.2
+Text Label 5900 2350 2    50   ~ 0
+I2C_SCL
+Text Label 5900 4600 2    50   ~ 0
+V7.4
+Text Label 5900 4700 2    50   ~ 0
+V5
+Text Label 5900 4800 2    50   ~ 0
+I2C_SDA
+Text Label 5900 4900 2    50   ~ 0
+V3.3
+Text Label 7250 2150 0    50   ~ 0
+V7.4
+Text Label 7250 2250 0    50   ~ 0
+V5
+Text Label 7250 2350 0    50   ~ 0
+I2C_SDA
+Text Label 7250 2450 0    50   ~ 0
+V3.3
+Wire Wire Line
+	5900 2150 6300 2150
+Wire Wire Line
+	5900 2250 6300 2250
+Wire Wire Line
+	6300 2350 5900 2350
+Wire Wire Line
+	7250 2150 6800 2150
+Wire Wire Line
+	6800 2250 7250 2250
+Wire Wire Line
+	7250 2350 6800 2350
+Wire Wire Line
+	6800 2450 7250 2450
+Wire Wire Line
+	5900 4600 6300 4600
+Wire Wire Line
+	5900 4700 6300 4700
+Wire Wire Line
+	5900 4800 6300 4800
+Wire Wire Line
+	5900 4900 6300 4900
+Text Label 7250 4500 0    50   ~ 0
+V3.3
+Text Label 7250 4600 0    50   ~ 0
+V5
+Text Label 7250 4700 0    50   ~ 0
+V1.2
+Text Label 7250 4800 0    50   ~ 0
+I2C_SCL
+Wire Wire Line
+	6800 4500 7250 4500
+Wire Wire Line
+	6800 4600 7250 4600
+Wire Wire Line
+	6800 4700 7250 4700
+Wire Wire Line
+	6800 4800 7250 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5E68EBE3
+P 7850 4900
+F 0 "#PWR?" H 7850 4650 50  0001 C CNN
+F 1 "GND" H 7855 4727 50  0000 C CNN
+F 2 "" H 7850 4900 50  0001 C CNN
+F 3 "" H 7850 4900 50  0001 C CNN
+	1    7850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E68EDF9
+P 5250 4500
+F 0 "#PWR?" H 5250 4250 50  0001 C CNN
+F 1 "GND" H 5255 4327 50  0000 C CNN
+F 2 "" H 5250 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0001 C CNN
+	1    5250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4500 6300 4500
+Wire Wire Line
+	6800 4900 7850 4900
 $EndSCHEMATC
