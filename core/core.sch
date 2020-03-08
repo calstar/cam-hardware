@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -14,199 +14,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Sensor_Motion:BNO055 U1
-U 1 1 5E529597
-P 3750 2850
-F 0 "U1" H 4050 3750 50  0000 C CNN
-F 1 "BNO055" H 4050 3650 50  0000 C CNN
-F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 4000 2200 50  0001 L CNN
-F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf" H 3750 3050 50  0001 C CNN
-	1    3750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5E5297AA
-P 4650 3600
-F 0 "#PWR0101" H 4650 3350 50  0001 C CNN
-F 1 "GND" H 4655 3427 50  0000 C CNN
-F 2 "" H 4650 3600 50  0001 C CNN
-F 3 "" H 4650 3600 50  0001 C CNN
-	1    4650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5E529857
-P 4500 3350
-F 0 "C4" V 4550 3200 50  0000 C CNN
-F 1 "100nF" V 4650 3200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 3200 50  0001 C CNN
-F 3 "~" H 4500 3350 50  0001 C CNN
-	1    4500 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4350 3150 4650 3150
-Wire Wire Line
-	4650 3150 4650 3250
-Wire Wire Line
-	4350 3250 4650 3250
-Connection ~ 4650 3250
-Wire Wire Line
-	4650 3250 4650 3350
-Connection ~ 4650 3350
-Wire Wire Line
-	3650 3600 3850 3600
-Wire Wire Line
-	4650 3350 4650 3600
-Connection ~ 3650 3600
-Wire Wire Line
-	3650 3600 3650 3550
-Wire Wire Line
-	4050 3550 4050 3600
-Connection ~ 4050 3600
-Wire Wire Line
-	4050 3600 4650 3600
-Wire Wire Line
-	3950 3550 3950 3600
-Connection ~ 3950 3600
-Wire Wire Line
-	3950 3600 4050 3600
-Wire Wire Line
-	3850 3550 3850 3600
-Connection ~ 3850 3600
-Wire Wire Line
-	3850 3600 3950 3600
-Wire Wire Line
-	3150 3250 3100 3250
-Wire Wire Line
-	3100 3250 3100 3350
-Wire Wire Line
-	3100 3600 3650 3600
-$Comp
-L Device:C C3
-U 1 1 5E52ABC6
-P 3500 3800
-F 0 "C3" V 3650 3650 50  0000 C CNN
-F 1 "100nF" V 3650 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 3650 50  0001 C CNN
-F 3 "~" H 3500 3800 50  0001 C CNN
-	1    3500 3800
-	0    1    1    0   
-$EndComp
-Connection ~ 4650 3600
-NoConn ~ 3150 2850
-Wire Wire Line
-	3150 3350 3100 3350
-Connection ~ 3100 3350
-Wire Wire Line
-	3100 3350 3100 3600
-Text GLabel 3000 3150 0    50   Input ~ 0
+Text GLabel 2900 2700 0    50   Input ~ 0
 SCL
-Text GLabel 3000 3050 0    50   Input ~ 0
+Text GLabel 2900 2550 0    50   Input ~ 0
 SDA
-$Comp
-L Device:R R4
-U 1 1 5E52B8CB
-P 2850 3300
-F 0 "R4" V 2950 3150 50  0000 C CNN
-F 1 "10k" V 2950 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 3300 50  0001 C CNN
-F 3 "~" H 2850 3300 50  0001 C CNN
-	1    2850 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 3150 3050 3150
-Wire Wire Line
-	3050 3150 3050 3300
-Wire Wire Line
-	3050 3300 3000 3300
-Connection ~ 3050 3150
-Wire Wire Line
-	3050 3150 3150 3150
-$Comp
-L Device:R R3
-U 1 1 5E52BEB9
-P 2850 2900
-F 0 "R3" V 2750 2850 50  0000 C CNN
-F 1 "10k" V 2750 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2900 50  0001 C CNN
-F 3 "~" H 2850 2900 50  0001 C CNN
-	1    2850 2900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 3050 3050 3050
-Wire Wire Line
-	3050 3050 3050 2900
-Wire Wire Line
-	3050 2900 3000 2900
-Connection ~ 3050 3050
-Wire Wire Line
-	3050 3050 3150 3050
-$Comp
-L Device:R R2
-U 1 1 5E52C9B7
-P 2750 2700
-F 0 "R2" V 2550 2650 50  0000 C CNN
-F 1 "10k" V 2650 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2700 50  0001 C CNN
-F 3 "~" H 2750 2700 50  0001 C CNN
-	1    2750 2700
-	0    1    1    0   
-$EndComp
-Text GLabel 3100 2550 0    50   Input ~ 0
+Text GLabel 2900 2400 0    50   Input ~ 0
 INT_IMU
-Text GLabel 3050 2400 0    50   Input ~ 0
+Text GLabel 2900 2250 0    50   Input ~ 0
 nRESET
-Wire Wire Line
-	3150 2400 3150 2350
-$Comp
-L Device:R R1
-U 1 1 5E52DE95
-P 2750 2250
-F 0 "R1" V 2650 2200 50  0000 C CNN
-F 1 "10k" V 2650 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2250 50  0001 C CNN
-F 3 "~" H 2750 2250 50  0001 C CNN
-	1    2750 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 2250 3150 2350
-Connection ~ 3150 2350
-NoConn ~ 4350 2850
-NoConn ~ 4350 2350
-$Comp
-L Device:C C1
-U 1 1 5E530201
-P 2750 3600
-F 0 "C1" V 2800 3750 50  0000 C CNN
-F 1 "6.8nF" V 2700 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2788 3450 50  0001 C CNN
-F 3 "~" H 2750 3600 50  0001 C CNN
-	1    2750 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5E530247
-P 2750 3800
-F 0 "C2" V 2900 3650 50  0000 C CNN
-F 1 "120nF" V 2900 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2788 3650 50  0001 C CNN
-F 3 "~" H 2750 3800 50  0001 C CNN
-	1    2750 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 3800 2600 3600
-Wire Wire Line
-	3100 3800 3100 3600
-Connection ~ 3100 3600
 Text GLabel 8550 4000 2    50   Input ~ 0
 CSB
 Text GLabel 7350 3400 0    50   Input ~ 0
@@ -215,27 +30,6 @@ Wire Wire Line
 	7350 3400 7500 3400
 Wire Wire Line
 	8550 4000 8400 4000
-Connection ~ 2600 3600
-Wire Wire Line
-	2900 3800 3100 3800
-Wire Wire Line
-	2900 3600 3100 3600
-Wire Wire Line
-	2700 2900 2700 3100
-Wire Wire Line
-	2700 3100 2600 3100
-Connection ~ 2700 3100
-Wire Wire Line
-	2700 3100 2700 3300
-Connection ~ 2600 3100
-Wire Wire Line
-	2600 3100 2600 3600
-Wire Wire Line
-	3050 2400 3150 2400
-Wire Wire Line
-	2900 2250 3150 2250
-Wire Wire Line
-	2600 2100 3200 2100
 NoConn ~ 8400 5500
 NoConn ~ 8400 5350
 NoConn ~ 8400 5200
@@ -368,35 +162,6 @@ Text GLabel 3550 5950 2    50   Input ~ 0
 SCL
 Wire Wire Line
 	3550 5950 3400 5950
-$Comp
-L power:+3.3V #PWR0115
-U 1 1 5E651543
-P 3250 3800
-F 0 "#PWR0115" H 3250 3650 50  0001 C CNN
-F 1 "+3.3V" H 3250 3950 50  0000 C CNN
-F 2 "" H 3250 3800 50  0001 C CNN
-F 3 "" H 3250 3800 50  0001 C CNN
-	1    3250 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3600 3650 3800
-Wire Wire Line
-	3350 3800 3250 3800
-Connection ~ 2600 2700
-Wire Wire Line
-	2600 2700 2600 3100
-Wire Wire Line
-	3150 2750 3050 2750
-Wire Wire Line
-	3050 2750 3050 2700
-Wire Wire Line
-	3050 2700 2900 2700
-Wire Wire Line
-	3850 2100 3850 2150
-Wire Wire Line
-	2600 2100 2600 2250
-Connection ~ 2600 2250
 Connection ~ 3400 5950
 Wire Wire Line
 	3800 5500 3800 5450
@@ -508,24 +273,8 @@ F 3 "" H 3200 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 6250 3200 6250
-$Comp
-L power:+3.3V #PWR0123
-U 1 1 5E68BE35
-P 3200 2100
-F 0 "#PWR0123" H 3200 1950 50  0001 C CNN
-F 1 "+3.3V" H 3200 2250 50  0000 C CNN
-F 2 "" H 3200 2100 50  0001 C CNN
-F 3 "" H 3200 2100 50  0001 C CNN
-	1    3200 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 3200 2100
-Wire Wire Line
-	3200 2100 3650 2100
 Wire Wire Line
 	3400 5200 3400 5500
-Wire Wire Line
-	3150 2550 3100 2550
 Text GLabel 8550 3850 2    50   Input ~ 0
 INT_ALT
 Wire Wire Line
@@ -543,13 +292,6 @@ Connection ~ 2400 5400
 Wire Wire Line
 	2000 5400 2000 5500
 Connection ~ 2000 5400
-Connection ~ 3650 2100
-Wire Wire Line
-	3650 2100 3850 2100
-Wire Wire Line
-	3650 2150 3650 2100
-Wire Wire Line
-	2600 2250 2600 2700
 $Sheet
 S 7500 1500 900  4100
 U 5E52591C
@@ -615,4 +357,22 @@ Wire Wire Line
 	8550 3250 8400 3250
 Wire Wire Line
 	8400 3400 8550 3400
+$Sheet
+S 3000 2150 750  750 
+U 5E6B2FC0
+F0 "BNO055" 50
+F1 "BNO055.sch" 50
+F2 "nRESET" I L 3000 2250 50 
+F3 "INT" I L 3000 2400 50 
+F4 "SDA" O L 3000 2550 50 
+F5 "SCL" O L 3000 2700 50 
+$EndSheet
+Wire Wire Line
+	3000 2250 2900 2250
+Wire Wire Line
+	2900 2400 3000 2400
+Wire Wire Line
+	3000 2550 2900 2550
+Wire Wire Line
+	2900 2700 3000 2700
 $EndSCHEMATC
