@@ -176,53 +176,11 @@ X CAP 9 600 -500 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+3.3V
+# core-rescue_BMP388-star-common-lib
 #
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# star-common-lib_BMP388
-#
-DEF star-common-lib_BMP388 U 0 40 Y Y 1 F N
+DEF core-rescue_BMP388-star-common-lib U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "star-common-lib_BMP388" 0 450 50 H V C CNN
+F1 "core-rescue_BMP388-star-common-lib" 0 450 50 H V C CNN
 F2 "star-common-lib:BMP388" 0 550 50 H I C CNN
 F3 "" 0 400 50 H I C CNN
 DRAW
@@ -240,11 +198,11 @@ X VSS 9 -350 -150 100 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# star-common-lib_FTMH-120-03-F-DV-P
+# core-rescue_FTMH-120-03-F-DV-P-star-common-lib
 #
-DEF star-common-lib_FTMH-120-03-F-DV-P J 0 40 Y N 1 F N
+DEF core-rescue_FTMH-120-03-F-DV-P-star-common-lib J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "star-common-lib_FTMH-120-03-F-DV-P" 50 -1100 50 H V C CNN
+F1 "core-rescue_FTMH-120-03-F-DV-P-star-common-lib" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -332,6 +290,48 @@ X Pin_6 6 300 700 150 L 50 50 1 1 P
 X Pin_7 7 -200 600 150 R 50 50 1 1 P
 X Pin_8 8 300 600 150 L 50 50 1 1 P
 X Pin_9 9 -200 500 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

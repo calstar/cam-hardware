@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 5550 3600 5550
 $Comp
-L star-common-lib:FTMH-120-03-F-DV-P J?
+L core-rescue:FTMH-120-03-F-DV-P-star-common-lib J?
 U 1 1 5E646F14
 P 5400 2850
 F 0 "J?" H 5450 3967 50  0000 C CNN
