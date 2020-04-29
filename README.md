@@ -1,6 +1,6 @@
 View this project on [CADLAB.io](https://cadlab.io/project/22831). 
 
-# STAR - Common Avionics Module
+# STAR - CAS: Common Avionics Stack
 
 Contents
 * **core** - base module with microcontroller and a few sensors
