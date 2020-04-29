@@ -139,7 +139,7 @@ DEF Sensor_Motion_BNO055 U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V R CNN
 F1 "Sensor_Motion_BNO055" 500 650 50 H V R CNN
 F2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" 250 -650 50 H I L CNN
-F3 "" 0 200 50 H I C CNN
+F3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf" 0 200 50 H I C CNN
 $FPLIST
  LGA*5.2x3.8mm*P0.5mm*
 $ENDFPLIST
