@@ -282,4 +282,37 @@ Text GLabel 2500 7150 2    50   Input ~ 0
 A1
 Text GLabel 1400 7150 2    50   Input ~ 0
 A0
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5ED34396
+P 1850 3750
+F 0 "J8" H 1930 3742 50  0000 L CNN
+F 1 "Conn_01x02" H 1930 3651 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 1850 3750 50  0001 C CNN
+F 3 "~" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR01
+U 1 1 5ED35440
+P 1650 3750
+F 0 "#PWR01" H 1650 3600 50  0001 C CNN
+F 1 "+BATT" H 1665 3923 50  0000 C CNN
+F 2 "" H 1650 3750 50  0001 C CNN
+F 3 "" H 1650 3750 50  0001 C CNN
+	1    1650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5ED356CF
+P 1650 3850
+F 0 "#PWR02" H 1650 3600 50  0001 C CNN
+F 1 "GND" H 1655 3677 50  0000 C CNN
+F 2 "" H 1650 3850 50  0001 C CNN
+F 3 "" H 1650 3850 50  0001 C CNN
+	1    1650 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
