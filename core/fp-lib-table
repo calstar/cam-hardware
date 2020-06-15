@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name 500901-0801)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/500901-0801.mod)(options "")(descr ""))
 )
