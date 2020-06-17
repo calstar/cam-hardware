@@ -1,6 +1,4 @@
 (sym_lib_table
-  (lib (name STM32F401RET6-cache)(type Legacy)(uri "C:/Users/jgolf/Google Drive/School/UC Berkeley/Calstar/Avionics_Sync/calstar-hardware-sch-blocks-6134b55/STM32F401RET6/STM32F401RET6-cache.lib")(options "")(descr ""))
   (lib (name core-rescue)(type Legacy)(uri ${KIPRJMOD}/core-rescue.lib)(options "")(descr ""))
   (lib (name star-common-lib)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
-  (lib (name 500901-0801)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/500901-0801.lib)(options "")(descr ""))
 )
