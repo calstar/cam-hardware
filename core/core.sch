@@ -128,17 +128,6 @@ F 3 "" H 2900 850 50  0001 C CNN
 	1    2900 850 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12V #PWR02
-U 1 1 5ECC14BC
-P 700 850
-F 0 "#PWR02" H 700 700 50  0001 C CNN
-F 1 "+12V" H 715 1023 50  0000 C CNN
-F 2 "" H 700 850 50  0001 C CNN
-F 3 "" H 700 850 50  0001 C CNN
-	1    700  850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 1000 2900 1000
 Wire Wire Line
@@ -265,17 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 3250 2100 3250
 Connection ~ 2100 3250
-$Comp
-L power:+12V #PWR04
-U 1 1 5ECE6CCF
-P 700 2350
-F 0 "#PWR04" H 700 2200 50  0001 C CNN
-F 1 "+12V" H 715 2523 50  0000 C CNN
-F 2 "" H 700 2350 50  0001 C CNN
-F 3 "" H 700 2350 50  0001 C CNN
-	1    700  2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 2500 2900 2500
 Wire Wire Line
@@ -1225,4 +1203,26 @@ Text Label 4600 1600 0    50   ~ 0
 SWDCLK
 Text Label 4600 1700 0    50   ~ 0
 SWDIO
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F24BA96
+P 700 850
+F 0 "#PWR?" H 700 700 50  0001 C CNN
+F 1 "+BATT" H 715 1023 50  0000 C CNN
+F 2 "" H 700 850 50  0001 C CNN
+F 3 "" H 700 850 50  0001 C CNN
+	1    700  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F24C0A0
+P 700 2350
+F 0 "#PWR?" H 700 2200 50  0001 C CNN
+F 1 "+BATT" H 715 2523 50  0000 C CNN
+F 2 "" H 700 2350 50  0001 C CNN
+F 3 "" H 700 2350 50  0001 C CNN
+	1    700  2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
