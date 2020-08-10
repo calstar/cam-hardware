@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name core-rescue)(type Legacy)(uri ${KIPRJMOD}/core-rescue.lib)(options "")(descr ""))
   (lib (name star-common-lib)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/star-common-lib.lib)(options "")(descr ""))
+  (lib (name max17048)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/MAX17048/MAX17048.lib)(options "")(descr ""))
+  (lib (name SC18IS602BIPW)(type Legacy)(uri ${KIPRJMOD}/hardware-sch-blocks/SC18IS602BIPW/SC18IS602BIPW.lib)(options "")(descr ""))
 )
