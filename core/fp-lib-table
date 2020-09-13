@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name MAX17048)(type KiCad)(uri ${KIPRJMOD}/hardware-sch-blocks/MAX17048/MAX17048.pretty)(options "")(descr ""))
 )
